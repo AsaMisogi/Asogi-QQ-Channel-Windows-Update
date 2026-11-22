@@ -2,7 +2,7 @@
 
 朝频大赐福自用定制客户端。用 Windows 在「朝禊的大赐福」读帖子、聊讨论组，不必为了回一条消息再拿起手机。
 
-**[下载 Windows x64 0.14.1（ZIP）](https://github.com/AsaMisogi/Asogi-QQ-Channel-Windows-Update/releases/download/v0.14.1/asogi-channel-v0.14.1-windows-x64.zip)**　·　[百度网盘](https://pan.baidu.com/s/11q33a4dF3X1YvXK5_pTFlA?pwd=nyt1)（提取码 **nyt1**）　·　[频道网页版](https://pd.qq.com/g/Nekuso0721)
+**[下载 Windows x64 0.15.1（ZIP）](https://github.com/AsaMisogi/Asogi-QQ-Channel-Windows-Update/releases/download/v0.15.1/asogi-channel-v0.15.1-windows-x64.zip)**　·　[百度网盘](https://pan.baidu.com/s/11q33a4dF3X1YvXK5_pTFlA?pwd=nyt1)（提取码 **nyt1**）　·　[频道网页版](https://pd.qq.com/g/Nekuso0721)
 
 ![月计部的真实游戏讨论，成员信息已遮蔽](images/channel.png)
 
@@ -10,9 +10,20 @@
 
 ## 第一次使用
 
-1. **完整解压**下载的 ZIP，打开文件夹里的 `asogi-channel.exe`。如果从 Release 页面下载，请选择 **asogi-channel-v0.14.1-windows-x64.zip**，不要选 GitHub 自动生成的 Source code。
+1. **完整解压**下载的 ZIP，打开文件夹里的 `asogi-channel.exe`。如果从 Release 页面下载，请选择 **asogi-channel-v0.15.1-windows-x64.zip**，不要选 GitHub 自动生成的 Source code。
 2. 可以先作为访客阅读。要聊天，请登录 QQ；尚未加入频道的账号可以点「加入该频道」。已入频的账号按本人的房间权限收发消息。
 3. 更新时先从托盘退出旧版，再解压并打开新版。**同机更新不用搬数据**：各版本共用 `%LOCALAPPDATA%\AsogiGuild`。到「设置 → 数据与备份」可以打开这个目录，或按需导出和导入备份。
+
+## Rebirth 0.15.1 · 2026-11-22
+
+从 0.14.1 升级，本版包含 0.15.0 测试期间的功能与后续修复。
+
+- **图文可以一起复制。** 右键「复制整条消息」，可将图片、文字和换行一起粘贴。Obsidian 会得到排好版的 PNG；如果目标应用只贴出「[图片]」，选「复制为整张图片」。只想要原图或动图时，仍可单独复制图片。
+- **回看聊天不丢位置。** 一次最多读取 100 条连续的本机记录。上翻补入旧消息、链接卡补出大图时，正在读的那行留在原位。鼠标按住背景拖动默认关闭，可在「设置 → 常规」开启。
+- **云端不可见，本机仍可读。** 已收到的正文和已保存的原图独立于阅读缓存。QQ 明确撤回或隐藏后显示「仅本机」；点击标记可以手动通过「里武林」向同房间在线接收端传信，不会重发到 QQ。备用通道回执显示已确认数与本次接收端总数。
+- **输入与引用更方便。** 输入框随换行增高，引用条显示原句和小缩略图，点 × 取消。Markdown 编辑器支持粘图：本客户端显示排版，普通 QQ 显示源码和原图。回复通知可显示发送者、内容摘要和头像。
+- **图片与表情按需加载。** 修复透明头像闪烁和帖子作者头像暂时只剩底色。QQ 收藏随滚动加载，重开面板保留位置。链接缩略图完整显示；X 匿名嵌入被拒时尝试读取原帖公开图片，取不到则显示作者、限制说明及原帖入口。
+- **主题和排障。** 「设置 → 外观 → 跟随系统」可随 Windows 切换亮色和深色。遇到问题时可在「设置 → 常规」开启本机调试日志，再复现一次。
 
 ## Rebirth 0.14.1 · 2026-11-22
 
