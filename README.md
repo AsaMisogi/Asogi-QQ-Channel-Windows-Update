@@ -2,7 +2,7 @@
 
 朝频大赐福自用定制客户端。用 Windows 在「朝禊的大赐福」读帖子、聊讨论组，不必为了回一条消息再拿起手机。
 
-**[下载 Windows x64 0.18.0（ZIP）](https://github.com/AsaMisogi/Asogi-QQ-Channel-Windows-Update/releases/download/v0.18.0/asogi-channel-v0.18.0-windows-x64.zip)**　·　[国内加速下载](https://gh-proxy.org/https://github.com/AsaMisogi/Asogi-QQ-Channel-Windows-Update/releases/download/v0.18.0/asogi-channel-v0.18.0-windows-x64.zip)　·　[百度网盘](https://pan.baidu.com/s/11q33a4dF3X1YvXK5_pTFlA?pwd=nyt1)（提取码 **nyt1**）　·　[频道网页版](https://pd.qq.com/g/Nekuso0721)
+**[下载 Windows x64 0.19.0（ZIP）](https://github.com/AsaMisogi/Asogi-QQ-Channel-Windows-Update/releases/download/v0.19.0/asogi-channel-v0.19.0-windows-x64.zip)**　·　[国内加速下载](https://gh-proxy.org/https://github.com/AsaMisogi/Asogi-QQ-Channel-Windows-Update/releases/download/v0.19.0/asogi-channel-v0.19.0-windows-x64.zip)　·　[百度网盘](https://pan.baidu.com/s/11q33a4dF3X1YvXK5_pTFlA?pwd=nyt1)（提取码 **nyt1**）　·　[频道网页版](https://pd.qq.com/g/Nekuso0721)
 
 ![月计部的真实游戏讨论，成员信息已遮蔽](images/channel.png)
 
@@ -10,9 +10,15 @@
 
 ## 第一次使用
 
-1. **完整解压**下载的 ZIP，打开文件夹里的 `asogi-channel.exe`。如果从 Release 页面下载，请选择 **asogi-channel-v0.18.0-windows-x64.zip**，不要选 GitHub 自动生成的 Source code。
+1. **完整解压**下载的 ZIP，打开文件夹里的 `asogi-channel.exe`。如果从 Release 页面下载，请选择 **asogi-channel-v0.19.0-windows-x64.zip**，不要选 GitHub 自动生成的 Source code。
 2. 可以先作为访客阅读。要聊天，请登录 QQ；尚未加入频道的账号可以点「加入该频道」。已入频的账号按本人的房间权限收发消息。
 3. 0.15.1 或更早版本需从托盘退出，再完整解压本版一次。之后在「设置 → 关于」里下载更新并重启。**同机更新不用搬数据**：各版本共用 `%LOCALAPPDATA%\AsogiGuild`。到「设置 → 数据与备份」可以打开这个目录，或按需导出和导入备份。
+
+## Rebirth 0.19.0 · 2026-11-25
+
+- 已入频成员可以从「讨论组 → 外部频道 → 大赐福桥接-a区」和 Discord 群友聊天。客户端发到 Discord 的消息以 **【频道昵称】：** 单独署名，正文从下一行开始；普通 QQ 讨论组不参与桥接。
+- 在引用按钮旁选表态，可用标准表情和本服务器的自定义表情；点已有表态即可加入或取消。右键头像可 @，点名字可查看 Discord 资料和最高身份组。
+- 图片、动态表情和贴纸直接显示，重复的附件链接只保留一份。视频支持消息内播放和独立窗口；文件、PSD 和 PSB 选好保存位置后才下载，并显示进度和速度。发往 Discord 的图片转为 WebP，动图保留动画。
 
 ## Rebirth 0.18.0 · 2026-11-23
 
