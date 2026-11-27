@@ -2,7 +2,7 @@
 
 朝频大赐福自用定制客户端。用 Windows 在「朝禊的大赐福」读帖子、聊讨论组，不必为了回一条消息再拿起手机。
 
-**[下载 Windows x64 0.20.2（ZIP）](https://github.com/AsaMisogi/Asogi-QQ-Channel-Windows-Update/releases/download/v0.20.2/asogi-channel-v0.20.2-windows-x64.zip)**　·　[国内加速下载](https://gh-proxy.org/https://github.com/AsaMisogi/Asogi-QQ-Channel-Windows-Update/releases/download/v0.20.2/asogi-channel-v0.20.2-windows-x64.zip)　·　[百度网盘](https://pan.baidu.com/s/11q33a4dF3X1YvXK5_pTFlA?pwd=nyt1)（提取码 **nyt1**）　·　[频道网页版](https://pd.qq.com/g/Nekuso0721)
+**[下载 Windows x64 0.21.0（ZIP）](https://github.com/AsaMisogi/Asogi-QQ-Channel-Windows-Update/releases/download/v0.21.0/asogi-channel-v0.21.0-windows-x64.zip)**　·　[国内加速下载](https://gh-proxy.org/https://github.com/AsaMisogi/Asogi-QQ-Channel-Windows-Update/releases/download/v0.21.0/asogi-channel-v0.21.0-windows-x64.zip)　·　[百度网盘](https://pan.baidu.com/s/11q33a4dF3X1YvXK5_pTFlA?pwd=nyt1)（提取码 **nyt1**）　·　[频道网页版](https://pd.qq.com/g/Nekuso0721)
 
 ![月计部的真实游戏讨论，成员信息已遮蔽](images/channel.png)
 
@@ -10,9 +10,15 @@
 
 ## 第一次使用
 
-1. **完整解压**下载的 ZIP，打开文件夹里的 `asogi-channel.exe`。如果从 Release 页面下载，请选择 **asogi-channel-v0.20.2-windows-x64.zip**，不要选 GitHub 自动生成的 Source code。
+1. **完整解压**下载的 ZIP，打开文件夹里的 `asogi-channel.exe`。如果从 Release 页面下载，请选择 **asogi-channel-v0.21.0-windows-x64.zip**，不要选 GitHub 自动生成的 Source code。
 2. 可以先作为访客阅读。要聊天，请登录 QQ；尚未加入频道的账号可以点「加入该频道」。已入频的账号按本人的房间权限收发消息。
 3. 0.15.1 或更早版本需从托盘退出，再完整解压本版一次。之后在「设置 → 关于」里下载更新并重启。**同机更新不用搬数据**：各版本共用 `%LOCALAPPDATA%\AsogiGuild`。到「设置 → 数据与备份」可以打开这个目录，或按需导出和导入备份。
+
+## Rebirth 0.21.0 · 2026-11-27
+
+- **彻底修复 Discord 桥接运行中刷不出最新消息的问题**：根治首次网络瞬断宽限期内重连调度跳过、HTTP 发信掩盖 WebSocket 假死与服务端写异常导致僵尸连接等问题；新增重连增量补拉与服务端房间消息缓存，断网恢复或机器人重连后自动补齐空窗消息，不再需要重启客户端。
+- **迁移至独立中转域名 `qqrelay.asogi.fun`**：备用通道（里武林）、Discord 桥接与香港更新入口全面切换至 `qqrelay.asogi.fun`，与博客站点解耦，并接入服务端消息缓存与统一运维体系。
+- **「设置 → 外部中转」全新升级**：原「备用通道」更名为「外部中转」，一页查看备用通道与 Discord 桥接的实时连接状态，支持随时在本机独立关闭/开启、断开或重连两项服务。
 
 ## Rebirth 0.20.2 · 2026-11-27
 
